@@ -79,9 +79,9 @@ require '../../autoload.php';
 
 session_start();
 
-$providerName = 'Google';
-$clientId = '335481534979-ojndt8jeev3cq8bj4gcbjcfq4tbco30m.apps.googleusercontent.com';
-$clientSecret = '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';
+$providerName = '';
+$clientId = '';
+$clientSecret = '';
 $tenantId = '';
 
 if (array_key_exists('provider', $_POST)) {
