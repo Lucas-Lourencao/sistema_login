@@ -17,3 +17,5 @@ OBS: Alguns arquivos para uso do PHPmailer estão neste repositório, mas para u
 # Para visulizar o passo a passo de implementação do phpmailer e do sistema de autenticação do gmail veja phpmailerGmail.md;
 
 # Para visualizar os códigos comentados basta consultar os arquivos presentes na raiz do projeto e o arquivo db/conexao.php;
+
+# Para conferir o resultado do sistema de login em produção é só <a href="https://devat30.com/sistema_login">clicar aqui</a>
