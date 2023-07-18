@@ -136,40 +136,44 @@ Nos seus scripts, verifique os caminhos apontados nos requires, principalmente d
 
 ##### 5.1 Abra o google cloud console:
 
-> 5.1.1 Crie um projeto:
+> **5.1.1 Crie um projeto:**
 
 <img alt="etapa_um" src="img/etapa_um.jpeg"><br>
 <img alt="etapa_umPontoUm" src="img/etapa_um_um.jpeg">
 
-- Entre no projeto e vá em API e Serviços:<br>
-  <img alt="etapa_umPontoDois" src="img/etapa_um_dois.jpeg">
+> **5.1.2 Entre no projeto e vá em API e Serviços:**<br>
 
-> 5.1.2 Vá em credenciais:
+<img alt="etapa_umPontoDois" src="img/etapa_um_dois.jpeg"><br>
 
-> > 5.1.2.1 Configurar tela de consentimento;
+> **5.1.3 Vá em credenciais:**
+>
+> > **5.1.3.1 Configurar tela de consentimento;**
 > >
 > > > Nesta área você irá preencher várias informações sobre a sua aplicação - preencha o máximo de informações que puder, mas você só conseguirá avançar se informar os campos obrigatórios;
 
-<img alt="etapa_doisUm" src="img/etapa_dois_um.jpeg"><br>
-<img alt="etapa_doisPontoDois" src="img/etapa_dois_dois.jpeg"><br>
-<img alt="etapa_doisPontoTres" src="img/etapa_dois_tres.jpeg"><br>
-<img alt="etapa_umPontoUm" src="img/etapa_dois_quatro.jpeg"><br>
+<img alt="etapa_doisUm" src="img/etapa_dois_um.jpeg"><br><hr>
+<img alt="etapa_doisPontoDois" src="img/etapa_dois_dois.jpeg"><br><hr>
+<img alt="etapa_doisPontoTres" src="img/etapa_dois_tres.jpeg"><br><hr>
+<img alt="etapa_umPontoUm" src="img/etapa_dois_quatro.jpeg"><br><hr>
 
-> > 5.1.2.2 Preenchido as informações da Tela de permissão OAuth, a próxima tela é a de Escopo. Nesta tela, inicialmente, você não é obrigado a preencher nada então apenas avance.
+> > **5.1.3.2 Preenchido as informações da Tela de permissão OAuth**, a próxima tela é a de Escopo. Nesta tela, inicialmente, você não é obrigado a preencher nada então apenas avance.
 > >
 > > A próxima tela é para adicionar usuários de teste, adicione os emails, principalmente o GMAIL que você irá utilizar para envios de mensagem.
 > > <br>
 
-<img alt="etapa_doisUm" src="img/email_testes.jpeg"><br>
+<hr>
 
-> > Finalize gerando o resumo de cadastro da sua aplicação.
-> > <br>
+<img alt="etapa_doisUm" src="img/email_testes.jpeg"><br><hr>
 
-<img alt="etapa_doisUm" src="img/resumo.jpeg"><br>
+> > **5.1.3.3 Finalize gerando o resumo de cadastro da sua aplicação.** > > <br>
 
-> > 5.1.3 Agora sim,vá em credenciais e clique em criar credenciais:
+<hr>
+
+<img alt="etapa_doisUm" src="img/resumo.jpeg"><br><hr>
+
+> > **5.1.4 Agora sim,vá em credenciais e clique em criar credenciais:**
 > >
-> > > 5.1.3.1 Selecione Criar ID do cliente OAuth:
+> > > **5.1.4.1 Selecione Criar ID do cliente OAuth:**
 
 - Tipo de Aplicativo: Conforme sua necessidade.
   - Se for uma página web: Aplicativo da Web;
@@ -180,12 +184,12 @@ Nos seus scripts, verifique os caminhos apontados nos requires, principalmente d
 
 **Veja a sequencia de imagens abaixo:**
 
-<img alt="criando_credenciais" src="img/credenciais_um.jpeg"><br>
-<img alt="criando_credenciais" src="img/credenciais_dois.jpeg"><br>
-<img alt="criando_credenciais" src="img/credenciais_tres.jpeg"><br>
-<img alt="criando_credenciais" src="img/credenciais_quatro.jpeg"><br>
+<img alt="criando_credenciais" src="img/credenciais_um.jpeg"><br><hr>
+<img alt="criando_credenciais" src="img/credenciais_dois.jpeg"><br><hr>
+<img alt="criando_credenciais" src="img/credenciais_tres.jpeg"><br><hr>
+<img alt="criando_credenciais" src="img/credenciais_quatro.jpeg"><br><hr>
 
-> > Clique em Criar:
+> > **5.1.4.2 Clique em Criar:**
 > >
 > > > Pronto, agora você tem o ID do Cliente e a Chave Secreta do Cliente. São dois identificadores que ficarão disponíveis no console do seu projeto;
 
@@ -206,21 +210,28 @@ $clientId = '375481534178-ojpdt8jqev3cj8bjkgzbjcfq4tbco30m.abuild.googleusercont
 $refreshToken = '3//55JnP7IX-L9Ir68B7AuVBhPvvKPyFZRuNn -I8liCgYIARAAGAESNwF_gHAG2Bh9d60MBm27o_f910OZxbJCocC9ZR7odCw6gh-0Q';
 ```
 
+<hr>
+
 **ATENÇÃO:** O refreshTOken ainda não foi gerado, para gerá-lo você terá que copiar a URL https://seudominio/seu_caminho/db/vendor/phpmailer/phpmailer/get_oauth_token.php em uma aba do navegador e então você será redirecionado para uma página e preencherá um formulário.
 
+<hr>
+
+**Veja as imagens abaixo:**<br>
 <img alt="criando_credenciais" src="img/url_caminho_getoauth.jpeg"><br>
 
-- OBS: Após preencher o formulário você deverá acessar a página com um email habilitado para teste na tela de configuração do oAuth, conforme explicada na sessão anterior;
+**OBS:** Após preencher o formulário você deverá acessar a página com um email habilitado para teste na tela de configuração do oAuth, conforme explicada na sessão anterior;
 
 > > Você informará que o Google será seu provedor;
 > >
 > > > Irá passar o clientId e o clientSecret nos campos do formulário e irá submetê-lo;
 
-<img alt="formulario" src="img/form_preenchido.jpeg"><br>
+<hr>
+
+<img alt="formulario" src="img/form_preenchido.jpeg"><br><hr>
 
 > > > Se tudo der certo, será gerado um refreshToken similar ao exemplificado acima. Veja a tela que será exibida abaixo:
 
-<img alt="token" src="img/form_refreshGerado.jpeg"><br>
+<img alt="token" src="img/form_refreshGerado.jpeg"><br><hr>
 
 <h4 style="text-align:justify"> 6. Com todas as três credenciais acima, é terminar de configurar o script para envio de emails conforme apresentado no diretório examples do diretório src do phpmailer ou conforme demonstrado no script em cadastrar.php;</h4>
 
