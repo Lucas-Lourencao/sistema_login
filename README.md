@@ -238,3 +238,9 @@ Créditos:
 > **Professor Rodrigo Lima**, instrutor do programa de mentoria TypeDev, que além do acompanhamento e ensinamentos sobre programação e mercado, me ensinou como estruturar um projeto para apresentação no github;
 >
 > > https://github.com/rodrilima
+
+> **Mantenedores do PHPmailer**
+>
+> Documentação oficial:
+>
+> > https://github.com/PHPMailer
