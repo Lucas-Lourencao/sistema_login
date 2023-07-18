@@ -1,5 +1,7 @@
 <h1>Sistema de Cadastro e Login</h1>
 
+<img alt="gif sistema login" src="img/sistema_login.gif">
+
 <p style="text-align: justify">Aplicação deste repositório é um sistema de login completo com página de cadastro de dados, scripts para validação de cadastro, recuperação de senha e token de sessão.</p>
 <p style="text-align: justify">O projeto também apresentam um tutorial para utilização da biblioteca PHPmailer e do sistema de autenticação do Google, para utilização do Gmail como provedor.</p><br>
 
