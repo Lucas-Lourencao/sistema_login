@@ -98,7 +98,7 @@ No terminal:
             },
 ```
 
-> > > Para utilização do Gmail como provedor, você utilizará duas desas sugestões e deverá cumprir a etapa abaixo.
+> Para utilização do Gmail como provedor, você utilizará duas dessas sugestões e deverá cumprir a etapa abaixo.
 
 <h3 style="text-align:justify"> 3. Para utilização do Gmail como provedor, abra o arquivo composer.json e insira as seguintes dependências:</h3>
 
